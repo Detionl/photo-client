@@ -1,4 +1,5 @@
-declare module '*.vue' {
-  import Vue from 'vue';
+//主要用于ts识别.vue文件
+declare module "*.vue" {
+  import Vue from "vue";
   export default Vue;
 }
